@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="device_name">Dispositivo:</string>
+	<string name="device_version">Versión:</string>
+	<string name="device_id">Android Device ID:</string>
+	<string name="device_bootloader">Bootloader:</string>
+	<string name="device_imei">IMEI:</string>
+	<string name="device_fingerprint">Fingerprint:</string>
+	<string name="device_tags">Etiquetas:</string>
+	<string name="hardware_manufacturer">Fabricante:</string>
+	<string name="hardware_brand">Marca:</string>
+	<string name="hardware_hardware">Hardware:</string>
+	<string name="hardware_cpu_abi">CPU_ABI:</string>
+	<string name="hardware_cpu_abi2">CPU_ABI2:</string>
+	<string name="battery_percent">Batería restante:</string>
+	<string name="battery_status">Estado:</string>
+	<string name="connectivity_status">¿Conectado?</string>
+	<string name="yes">Sí</string>
+	<string name="no">No</string>
+	<string name="geolocation_available">¿Disponible?</string>
+	<string name="geolocation_enable">¿Habilitado?</string>
+	<string name="other_vibration">Probar vibración</string>
+	<string name="other_vibration_button">Vibrar</string>
+	<string name="share">Compartir</string>
+	<string name="share_text">Información del dispositivo con Material Design.</string>
+	<string name="about_title">Sobre Material ID</string>
+	<string name="about_description">Material ID es una aplicación sencilla para obtener información del dispositivo (versión, bootloader, ID, cpu, etc) y probar algunas funciones. Diseño inspirado en Material Design.</string>
+	<string name="about_author">Hecho por Javier Santos. Código fuente disponible en Github.</string>
+	<string name="about_github">Ir a Github</string>
+
+	<!--- Tabs -->
+	<string-array name="tabs">
+        <item>Dispositivo</item>
+        <item>Batería</item>
+    </string-array>
+
+</resources>

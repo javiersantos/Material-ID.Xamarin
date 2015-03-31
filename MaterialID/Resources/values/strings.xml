@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Material ID</string>
+	<string name="app_version">1.0</string>
+	<string name="app_version_name">Guerrero</string>
+	<string name="device_name">Your Device:</string>
+	<string name="device_version">Android Version:</string>
+	<string name="device_id">Android Device ID:</string>
+	<string name="device_bootloader">Bootloader:</string>
+	<string name="device_imei">IMEI:</string>
+	<string name="device_fingerprint">Fingerprint:</string>
+	<string name="device_tags">Tags:</string>
+	<string name="hardware_manufacturer">Manufacturer:</string>
+	<string name="hardware_brand">Brand:</string>
+	<string name="hardware_hardware">Hardware:</string>
+	<string name="hardware_cpu_abi">CPU_ABI:</string>
+	<string name="hardware_cpu_abi2">CPU_ABI2:</string>
+	<string name="battery_percent">Remaining Battery:</string>
+	<string name="battery_status">Status:</string>
+	<string name="connectivity_status">Connected?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="geolocation_available">Available?</string>
+	<string name="geolocation_enable">Enabled?</string>
+	<string name="other_vibration">Test Vibration</string>
+	<string name="other_vibration_button">Vibrate</string>
+	<string name="share">Share</string>
+	<string name="share_text">Device information with Material Design.</string>
+	<string name="about_title">About Material ID</string>
+	<string name="about_description">Material ID is a simple app to get some device information (version, bootloader, ID, cpu, etc) and test device features. Design inspired by Material Design.</string>
+	<string name="about_author">Made by Javier Santos. Source code available at Github.</string>
+	<string name="about_github">Go to Github</string>
+
+	<!--- Tabs -->
+	<string-array name="tabs">
+        <item>Device</item>
+        <item>Battery</item>
+    </string-array>
+
+</resources>

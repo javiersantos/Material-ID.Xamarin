@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp">
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:fontFamily="sans-serif-thin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hardware_manufacturer"
+                android:paddingLeft="20dp"
+                android:paddingTop="6dp" />
+            <TextView
+                android:id="@+id/hardware_manufacturer"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:paddingTop="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp">
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:fontFamily="sans-serif-thin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hardware_brand"
+                android:paddingLeft="20dp"
+                android:paddingTop="6dp" />
+            <TextView
+                android:id="@+id/hardware_brand"
+                android:fontFamily="sans-serif-light"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:gravity="center_horizontal"
+                android:paddingTop="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp">
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:fontFamily="sans-serif-thin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hardware_hardware"
+                android:paddingLeft="20dp"
+                android:paddingTop="6dp" />
+            <TextView
+                android:id="@+id/hardware_hardware"
+                android:fontFamily="sans-serif-light"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:gravity="center_horizontal"
+                android:paddingTop="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp">
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:fontFamily="sans-serif-thin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hardware_cpu_abi"
+                android:paddingLeft="20dp"
+                android:paddingTop="6dp" />
+            <TextView
+                android:id="@+id/hardware_cpu_abi"
+                android:fontFamily="sans-serif-light"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:gravity="center_horizontal"
+                android:paddingTop="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp">
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:fontFamily="sans-serif-thin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hardware_cpu_abi2"
+                android:paddingLeft="20dp"
+                android:paddingTop="6dp" />
+            <TextView
+                android:id="@+id/hardware_cpu_abi2"
+                android:fontFamily="sans-serif-light"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:gravity="center_horizontal"
+                android:paddingTop="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

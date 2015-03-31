@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/about_title"
+            android:textSize="60px"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/about_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="30dp" />
+        <TextView
+            android:id="@+id/about_version"
+            android:layout_below="@id/about_title"
+            android:textSize="22px"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" />
+        <TextView
+            android:id="@+id/about_description"
+            android:layout_below="@id/about_title"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/about_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="30dp" />
+        <TextView
+            android:id="@+id/about_author"
+            android:layout_below="@id/about_description"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/about_author"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="60dp" />
+        <Button
+            android:id="@+id/about_github"
+            android:layout_below="@id/about_author"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:text="@string/about_github"
+            android:background="@color/blueLight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="goGithub" />
+    </LinearLayout>
+</ScrollView>
