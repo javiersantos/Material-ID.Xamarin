@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">Material ID</string>
-	<string name="app_version">1.0</string>
+	<string name="app_version">1.0.0.1</string>
 	<string name="app_version_name">Guerrero</string>
 	<string name="device_name">Your Device:</string>
 	<string name="device_version">Android Version:</string>
@@ -17,7 +17,7 @@
 	<string name="hardware_cpu_abi2">CPU_ABI2:</string>
 	<string name="battery_percent">Remaining Battery:</string>
 	<string name="battery_status">Status:</string>
-	<string name="connectivity_status">Connected?</string>
+	<string name="connectivity_status">Connected to Internet?</string>
 	<string name="yes">Yes</string>
 	<string name="no">No</string>
 	<string name="geolocation_available">Available?</string>

@@ -14,7 +14,7 @@
 	<string name="hardware_cpu_abi2">CPU_ABI2:</string>
 	<string name="battery_percent">Batería restante:</string>
 	<string name="battery_status">Estado:</string>
-	<string name="connectivity_status">¿Conectado?</string>
+	<string name="connectivity_status">¿Conectado a Internet?</string>
 	<string name="yes">Sí</string>
 	<string name="no">No</string>
 	<string name="geolocation_available">¿Disponible?</string>
