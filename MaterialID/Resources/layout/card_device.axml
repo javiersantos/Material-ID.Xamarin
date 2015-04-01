@@ -11,12 +11,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/device_name"
@@ -25,6 +26,7 @@
             <TextView
                 android:id="@+id/device_name"
                 style="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/gray"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
@@ -35,12 +37,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/device_version"
@@ -49,6 +52,7 @@
             <TextView
                 android:id="@+id/device_version"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
@@ -59,12 +63,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/device_id"
@@ -73,6 +78,7 @@
             <TextView
                 android:id="@+id/device_id"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
@@ -83,12 +89,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/device_bootloader"
@@ -97,6 +104,7 @@
             <TextView
                 android:id="@+id/device_bootloader"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
@@ -107,12 +115,13 @@
             android:layout_width="fill_parent"
             android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/device_fingerprint"
@@ -121,6 +130,7 @@
             <TextView
                 android:id="@+id/device_fingerprint"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
@@ -131,12 +141,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/device_tags"
@@ -145,6 +156,7 @@
             <TextView
                 android:id="@+id/device_tags"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"

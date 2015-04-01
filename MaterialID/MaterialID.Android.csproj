@@ -115,7 +115,6 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\layout\toolbar.axml" />
-    <AndroidResource Include="Resources\drawable\nexus_device.png" />
     <AndroidResource Include="Resources\menu\home.xml" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_action_social_share.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_social_share.png" />
@@ -130,6 +129,7 @@
     <AndroidResource Include="Resources\layout\card_hardware.axml" />
     <AndroidResource Include="Resources\layout\card_about.axml" />
     <AndroidResource Include="Resources\values-es\strings.xml" />
+    <AndroidResource Include="Resources\drawable\round_button.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

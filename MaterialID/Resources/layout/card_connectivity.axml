@@ -11,12 +11,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/connectivity_status"
@@ -26,6 +27,7 @@
                 android:id="@+id/connectivity_status"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
                 android:layout_width="fill_parent"

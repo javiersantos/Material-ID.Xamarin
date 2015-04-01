@@ -11,12 +11,13 @@
             android:layout_width="fill_parent"
             android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/other_vibration"
@@ -32,7 +33,7 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginRight="100dp"
                 android:text="@string/other_vibration_button"
-                android:background="@color/blueLight"
+                android:background="@drawable/round_button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:onClick="testVibration" />

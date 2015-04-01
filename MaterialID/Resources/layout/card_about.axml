@@ -58,7 +58,7 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:text="@string/about_github"
-            android:background="@color/blueLight"
+            android:background="@drawable/round_button"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:onClick="goGithub" />

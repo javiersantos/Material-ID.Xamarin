@@ -11,12 +11,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hardware_manufacturer"
@@ -26,6 +27,7 @@
                 android:id="@+id/hardware_manufacturer"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
                 android:layout_width="fill_parent"
@@ -35,12 +37,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hardware_brand"
@@ -49,6 +52,7 @@
             <TextView
                 android:id="@+id/hardware_brand"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
@@ -59,12 +63,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hardware_hardware"
@@ -73,6 +78,7 @@
             <TextView
                 android:id="@+id/hardware_hardware"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
@@ -83,12 +89,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hardware_cpu_abi"
@@ -97,6 +104,7 @@
             <TextView
                 android:id="@+id/hardware_cpu_abi"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
@@ -107,12 +115,13 @@
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            card_view:cardBackgroundColor="@color/gray"
+            card_view:cardBackgroundColor="@color/white"
             card_view:cardUseCompatPadding="true"
             card_view:cardCornerRadius="8dp">
             <TextView
                 style="@style/TextAppearance.AppCompat.Title"
                 android:fontFamily="sans-serif-thin"
+                android:textColor="@color/gray"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hardware_cpu_abi2"
@@ -121,6 +130,7 @@
             <TextView
                 android:id="@+id/hardware_cpu_abi2"
                 android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:gravity="center_horizontal"
                 android:paddingTop="40dp"
